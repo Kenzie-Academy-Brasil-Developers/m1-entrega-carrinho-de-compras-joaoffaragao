@@ -2,6 +2,7 @@ main {
     width: 300px;
     height: 600px;
     display: flex;
+    flex-direction: column;
     box-sizing: border-box;
 }
 
@@ -18,16 +19,16 @@ ul.cabecalho {
     margin: 0;
     padding: 0 20px;
     border-radius: 10px;
-
+    box-sizing: border-box;
+    
 }
 
-li{
+li.itemCabecalho{
     
 
     list-style: none;
     background: black;
     
-
 }
 
 p.itemCabecalho{
@@ -35,3 +36,92 @@ p.itemCabecalho{
  color: white;
 
 }
+
+ul.listaProdutos {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: top;
+    justify-content: space-between;
+    background: white;
+    
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
+
+
+li.itemProduto{
+    
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background: lightgray;
+    
+    margin: 5px 0px;
+    padding: 10px;
+
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+ul.listaDetalhe {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: top;
+    justify-content: space-between;
+    background: white;
+    
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+li.itemDetalhe{
+    
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background: gray;
+    
+    margin: 5px 0px;
+    padding: 10px;
+
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+p.nomeProduto{
+
+    font-weight: bold;
+
+}
+
+button.finalizar{
+
+    background-color: lightblue;
+    border: 0;
+    height: 50px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+
+}
+
